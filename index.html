@@ -18,77 +18,74 @@
         {% include header.html %}
     </div>
 
-
     <div class="body-region hidden">
         <h1>Welcome to Terra Vista Dental Care!</h1>
-        <div class="horizontal-stack">
 
-            <div class="slideshow-wrapper">
-                <div class="slideshow-container">
+        <div class="slideshow-wrapper">
+            <div class="slideshow-container">
 
-                <button class="left slideshow-arrow" id="left-slideshow-arrow">
-                    <img class="arrow-image" src="{{ '/images/slideshow/arrows/LeftArrow.svg' | relative_url}}" alt="left arrow">
-                </button>
-                <button class="right slideshow-arrow" id="right-slideshow-arrow">
-                    <img class="arrow-image" src="{{ '/images/slideshow/arrows/RightArrow.svg' | relative_url}}" alt="right arrow">
-                </button>
-                <img class="slideshow-image active" id="img-0" src="images/slideshow/display_pictures/SlideshowImage0.jpg" alt="pic 0">
-                <img class="slideshow-image" id="img-1" src="images/slideshow/display_pictures/SlideshowImage1.jpg" alt="pic 1">
-                <img class="slideshow-image" id="img-2" src="images/slideshow/display_pictures/SlideshowImage2.jpg" alt="pic 2">
+            <button class="left slideshow-arrow" id="left-slideshow-arrow">
+                <img class="arrow-image" src="{{ '/images/slideshow/arrows/LeftArrow.svg' | relative_url}}" alt="left arrow">
+            </button>
+            <button class="right slideshow-arrow" id="right-slideshow-arrow">
+                <img class="arrow-image" src="{{ '/images/slideshow/arrows/RightArrow.svg' | relative_url}}" alt="right arrow">
+            </button>
+            <img class="slideshow-image active" id="img-0" src="images/slideshow/display_pictures/SlideshowImage0.jpg" alt="pic 0">
+            <img class="slideshow-image" id="img-1" src="images/slideshow/display_pictures/SlideshowImage1.jpg" alt="pic 1">
+            <img class="slideshow-image" id="img-2" src="images/slideshow/display_pictures/SlideshowImage2.jpg" alt="pic 2">
+            </div>
+            <div class="slideshow-dots-container">
+                <div class="bigger-dot-container">
+                    <button class="slideshow-dot active" id="slideshow-dot-0"></button>
                 </div>
-                <div class="slideshow-dots-container">
-                    <div class="bigger-dot-container">
-                        <button class="slideshow-dot active" id="slideshow-dot-0"></button>
-                    </div>
-                    <div class="bigger-dot-container">
-                        <button class="slideshow-dot" id="slideshow-dot-1"></button>
-                    </div>
-                    <div class="bigger-dot-container">
-                        <button class="slideshow-dot" id="slideshow-dot-2"></button>
-                    </div>
+                <div class="bigger-dot-container">
+                    <button class="slideshow-dot" id="slideshow-dot-1"></button>
+                </div>
+                <div class="bigger-dot-container">
+                    <button class="slideshow-dot" id="slideshow-dot-2"></button>
                 </div>
             </div>
-
-            
-            <div class="large text box home">
-                <p>
-                    Located at the foothills of the San Gabriel Mountains on the 
-                    northeast corner of Haven Ave and Baseline Rd in Rancho 
-                    Cucamonga, Terra Vista Dental Care is led by 
-                    <a href="pages/our_doctors.html">Dr. Sejal Rajurkar DDS</a>. We 
-                    provide personalized, high-quality dental care for children and 
-                    adults of all ages, 
-                    <a href="pages/services_provided.html">offering</a> everything 
-                    from preventive 
-                    treatment to Invisalign Clear Aligners, cosmetic procedures, 
-                    mercury-free white fillings, and dental veneers.
-                </p>
-                <p>
-                    With over fifteen years of private practice experience and a 
-                    background in dental research, Dr. Rajurkar practices 
-                    evidence-based dentistry to achieve the best long-term 
-                    functional and aesthetic outcomes for her patients.
-                </p>
-                <p>
-                    Our team is carefully selected to be kind, patient, and 
-                    compassionate — and we hope that comes through from the moment 
-                    you walk in. We understand that scheduling your first 
-                    appointment can feel intimidating, but we promise you'll be glad 
-                    you did! You're also welcome to stop by anytime for a 
-                    no-strings-attached tour of our newly renovated office — and 
-                    while you're here, enter our raffle for a chance to win a free 
-                    professional Zoom teeth whitening treatment (drawn every 3 
-                    months). We'd love to meet you!
-                </p>
-            </div>
-
-
         </div>
 
         
+        <div class="large text box home">
+            <p>
+                Located at the foothills of the San Gabriel Mountains on the 
+                northeast corner of Haven Ave and Baseline Rd in Rancho 
+                Cucamonga, Terra Vista Dental Care is led by 
+                <a href="pages/our_doctors.html">Dr. Sejal Rajurkar DDS</a>. We 
+                provide personalized, high-quality dental care for children and 
+                adults of all ages, 
+                <a href="pages/services_provided.html">offering</a> everything 
+                from preventive 
+                treatment to Invisalign Clear Aligners, cosmetic procedures, 
+                mercury-free white fillings, and dental veneers.
+            </p>
+            <p>
+                With over fifteen years of private practice experience and a 
+                background in dental research, Dr. Rajurkar practices 
+                evidence-based dentistry to achieve the best long-term 
+                functional and aesthetic outcomes for her patients.
+            </p>
+            <p>
+                Our team is carefully selected to be kind, patient, and 
+                compassionate — and we hope that comes through from the moment 
+                you walk in. We understand that scheduling your first 
+                appointment can feel intimidating, but we promise you'll be glad 
+                you did! You're also welcome to stop by anytime for a 
+                no-strings-attached tour of our newly renovated office — and 
+                while you're here, enter our raffle for a chance to win a free 
+                professional Zoom teeth whitening treatment (drawn every 3 
+                months). We'd love to meet you!
+            </p>
+        </div>
+
+
 
         
-        <div class="horizontal-stack container home-link">
+
+        
+        <!-- <div class="horizontal-stack container home-link">
             <div class="medium-small text horizontal-stack item home-link">
                 <img class="home-link" src="images/insurance-logos/Aetna_logo.svg" alt="link 1">
                 <a class="base text" href="index.html">LINK 3</a>
@@ -101,7 +98,7 @@
                 <img class="home-link" src="images/insurance-logos/Aetna_logo.svg" alt="link 3">
                 <a class="base text" href="index.html">LINK 1</a>
             </div>
-        </div>
+        </div> -->
 
     </div>
 
