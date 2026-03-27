@@ -65,6 +65,10 @@ body {
     background-color: lightgray;
 }
 
+h2 {
+    text-align: center;
+}
+
 .hidden {
     visibility: hidden;
 }
@@ -750,6 +754,15 @@ div.services-content-item:nth-of-type(even) {
 .pair.medium-image.card {
     height: auto;
     margin: 0vw;
+}
+
+#toggle-insurance-box {
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 20px;
+    margin: 15px;
+    background-color: #69b5eb;
+    color: white;
 }
 
 @media (max-width: 768px) {
