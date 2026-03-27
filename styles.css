@@ -80,9 +80,9 @@ body {
     background-color: white;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1300px) {
     .body-region {
-        width: 85vw;
+        width: 90vw;
     }
 }
 
@@ -367,9 +367,8 @@ ul {
 
 .nav-region {
     display: block;
+    border-bottom: #303030 1px solid;
 }
-
-
 
 .nav-bar {
     display: flex;
@@ -416,15 +415,31 @@ ul {
     text-shadow: none;
 }
 
+#toggle-nav {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .nav-region {
-        display: block;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.35s ease, opacity 0.3s ease;
+        opacity: 0;
+    }
+
+    .nav-region.open {
+        max-height: 500px;
+        opacity: 1;
     }
 
     .nav-bar {
         flex-direction: column;
         height: auto;
-        margin: 5%;
+        /* margin: 5%; */
+    }
+
+    #toggle-nav {
+        display: block;
     }
 
 }

@@ -32,10 +32,28 @@ async function setActiveNav() {
 async function setLayout() {
 
     setActiveNav()
+    addNavToggle();
 
     // Shows body once header and footer load
     const bodyRegion = document.getElementsByClassName("body-region")[0] as HTMLElement;
     bodyRegion.classList.remove("hidden");
+}
+
+function addNavToggle() {
+    const toggleNav: HTMLElement | null = document.getElementById("toggle-nav");
+    const navRegion: HTMLElement | null = document.getElementById("nav-region-expandable");
+
+    toggleNav?.addEventListener("click", (): void => {
+        if (navRegion?.classList.contains("open")) {
+            navRegion.classList.remove("open");
+        } else {
+            navRegion?.classList.add("open");
+            console.log("hi");
+        }
+
+    })
+
+
 }
 
 await setLayout()

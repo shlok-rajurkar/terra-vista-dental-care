@@ -26,9 +26,23 @@ async function setActiveNav() {
 }
 async function setLayout() {
     setActiveNav();
+    addNavToggle();
     // Shows body once header and footer load
     const bodyRegion = document.getElementsByClassName("body-region")[0];
     bodyRegion.classList.remove("hidden");
+}
+function addNavToggle() {
+    const toggleNav = document.getElementById("toggle-nav");
+    const navRegion = document.getElementById("nav-region-expandable");
+    toggleNav?.addEventListener("click", () => {
+        if (navRegion?.classList.contains("open")) {
+            navRegion.classList.remove("open");
+        }
+        else {
+            navRegion?.classList.add("open");
+            console.log("hi");
+        }
+    });
 }
 await setLayout();
 export {};
