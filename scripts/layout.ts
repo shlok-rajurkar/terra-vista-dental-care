@@ -33,6 +33,7 @@ async function setLayout() {
 
     setActiveNav()
     addBoxToggle("toggle-nav", "nav-region-expandable");
+    addBoxToggle("toggle-insurance-box", "insurance-box-expandable");
 
     // Shows body once header and footer load
     const bodyRegion = document.getElementsByClassName("body-region")[0] as HTMLElement;

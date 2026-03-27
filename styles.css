@@ -415,20 +415,20 @@ ul {
     text-shadow: none;
 }
 
-#toggle-nav {
+.toggle-button {
     display: none;
 }
 
 @media (max-width: 768px) {
-    .nav-region {
+    .expandable {
         overflow: hidden;
         max-height: 0;
         transition: max-height 0.35s ease, opacity 0.3s ease;
         opacity: 0;
     }
 
-    .nav-region.open {
-        max-height: 500px;
+    .expandable.open {
+        max-height: 50000px;
         opacity: 1;
     }
 
@@ -438,7 +438,7 @@ ul {
         /* margin: 5%; */
     }
 
-    #toggle-nav {
+    .toggle-button {
         display: block;
     }
 
@@ -705,7 +705,7 @@ div.services-content-item:nth-of-type(even) {
     gap: 3vw;
     padding: 3vw;
     margin-top: 0vh;
-    margin-bottom: 7vh;
+    margin-bottom: 20px;
 }
 
 .insurance.horizontal-stack img {
@@ -760,7 +760,7 @@ div.services-content-item:nth-of-type(even) {
     .insurance-list-container {
         width: 100%;
         max-width: 85vw;
-        margin: 10vh 2vw;
+        margin: 20px;
         flex-direction: column;
     }
 
