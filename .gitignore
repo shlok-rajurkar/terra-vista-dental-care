@@ -9,3 +9,4 @@ _site/index.html\
 node_modules/
 jest.config.js
 tests/
+todolist.txt
