@@ -622,6 +622,12 @@ div.services-content-item:nth-of-type(even) {
     }
 }
 
+@media (max-width: 720px) {
+    .services.content-half {
+        width: 350px;
+    }
+}
+
 .services.content-half img {
     width: 300px;
     height: auto;
@@ -645,6 +651,23 @@ div.services-content-item:nth-of-type(even) {
 }
 
 
+.horizontal-stack.services.bottom {
+    /* border: black 1px solid; */
+    flex-grow: 1;
+    max-width: 1000px;
+}
+
+
+.services.bottom.text {
+    min-width: 200px;
+    flex-grow: 1;
+    /* max-width: 300px; */
+    padding: 15px;
+}
+
+.services.bottom.text h3 {
+    border-bottom: 1px black solid;
+}
 
 
 
