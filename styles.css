@@ -193,7 +193,7 @@ ul {
 .logo-contact-container {
     display: flex;
     flex-direction: row;
-    padding: 3vw;
+    padding: 2vw;
     flex-wrap: wrap;
     background-color: white;
 }
@@ -213,10 +213,11 @@ ul {
 
 .logo {
     text-align: center;
+    margin: 10px;
 }
 
 .logo img {
-    max-width: 600px;
+    max-width: 550px;
 }
 
 @media (max-width: 900px) {
@@ -239,6 +240,22 @@ ul {
 
 .top-contact.item-list {
     text-align: end;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: row;
+}
+
+.no-style-list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.number {
+    text-align: start;
+    padding-left: 10px;
 }
 
 /* Stacks logo and contact vertically with narrow screen */
