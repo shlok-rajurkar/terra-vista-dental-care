@@ -195,7 +195,7 @@ ul {
     flex-direction: row;
     padding: 3vw;
     flex-wrap: wrap;
-    background-color: var(--primary-color);
+    background-color: white;
 }
 
 .logo-slogan-container, .top-contact-container {
@@ -212,6 +212,16 @@ ul {
 
 .logo {
     text-align: center;
+}
+
+.logo img {
+    max-width: 85vw;
+}
+
+@media (max-width: 900px) {
+    .logo img {
+        max-width: 65vw;
+    }
 }
 
 .slogan {
