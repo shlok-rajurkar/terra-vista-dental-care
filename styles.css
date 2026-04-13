@@ -217,8 +217,18 @@ ul {
 }
 
 .logo img {
-    max-width: 550px;
+    max-width: 500px;
 }
+
+.address.text {
+    display: flex;
+    text-align: left;
+    align-self: stretch;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
 
 @media (max-width: 900px) {
     .logo img {
@@ -258,6 +268,11 @@ ul {
     padding-left: 10px;
 }
 
+.toggle-button {
+    border: 1px solid grey;
+    
+}
+
 /* Stacks logo and contact vertically with narrow screen */
 
 @media (max-width: 768px) {
@@ -267,6 +282,13 @@ ul {
 
     .top-contact-container {
         justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .address.text {
+        text-align: center;
+        margin-left: 0px;
+        align-self: center;
     }
 }
 
