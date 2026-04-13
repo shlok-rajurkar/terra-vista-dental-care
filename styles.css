@@ -236,6 +236,12 @@ ul {
     }
 }
 
+@media (max-width: 768px) {
+    .logo img {
+        max-width: 90vw;
+    }
+}
+
 .slogan {
     text-align: center;
     flex-grow: 0;
@@ -834,9 +840,7 @@ div.services-content-item:nth-of-type(even) {
     max-width: 100%;
 }
 
-.grid.image.insurance img {
-    max-width: 60%;
-}
+
 
 .pair.medium-image.card {
     height: auto;
@@ -872,6 +876,10 @@ div.services-content-item:nth-of-type(even) {
 
     .insurance.image {
         max-width: 70vw;
+    }
+    
+    .grid.image.insurance.item img {
+        max-width: 40%;
     }
 }
 /* #endregion */
@@ -950,7 +958,7 @@ div.services-content-item:nth-of-type(even) {
     }
 
     .insurance.image {
-        max-width: 90vw;
+        max-width: 65vw;
     }
 
     .grid img {
