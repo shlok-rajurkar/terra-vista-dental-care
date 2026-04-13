@@ -107,7 +107,7 @@ a:hover {
 }
 
 a:visited {
-
+    color: #0000ff;
 }
 
 ul {
@@ -136,7 +136,7 @@ ul {
 /* #region Text */
 
 .text.box {
-    max-width: 80%;
+    max-width: 75%;
     margin-bottom: 5vh;
 }
 
@@ -400,7 +400,8 @@ ul {
 
 .nav-region {
     display: block;
-    border-bottom: #303030 1px solid;
+    border-top: rgb(120, 120, 120) 1px solid;
+    border-bottom: rgb(120, 120, 120) 1px solid;
 }
 
 .nav-bar {
