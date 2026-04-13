@@ -200,6 +200,7 @@ ul {
 
 .logo-slogan-container, .top-contact-container {
     display: flex;
+    align-items: center;
 }
 
 
@@ -215,7 +216,7 @@ ul {
 }
 
 .logo img {
-    max-width: 85vw;
+    max-width: 600px;
 }
 
 @media (max-width: 900px) {
