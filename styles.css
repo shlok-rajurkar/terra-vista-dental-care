@@ -270,7 +270,14 @@ ul {
 
 .toggle-button {
     border: 1px solid grey;
-    
+    color: black;
+    border-radius: 10px;
+}
+
+.toggle-button.nav {
+    font-size: large;
+    width: 50vw;
+    align-self: center;
 }
 
 /* Stacks logo and contact vertically with narrow screen */
@@ -506,6 +513,7 @@ ul {
 
 .slideshow-wrapper {
     width: 60vw;
+    margin-bottom: 50px;
 }
 
 @media (max-width: 768px) {
@@ -826,6 +834,10 @@ div.services-content-item:nth-of-type(even) {
     max-width: 100%;
 }
 
+.grid.image.insurance img {
+    max-width: 60%;
+}
+
 .pair.medium-image.card {
     height: auto;
     margin: 0vw;
@@ -836,8 +848,6 @@ div.services-content-item:nth-of-type(even) {
     padding: 15px;
     font-size: 20px;
     margin: 15px;
-    background-color: #69b5eb;
-    color: white;
 }
 
 @media (max-width: 768px) {
@@ -857,11 +867,11 @@ div.services-content-item:nth-of-type(even) {
     }
 
     .insurance-item-container img {
-        width: 40%;
+        width: 60%;
     }
 
     .insurance.image {
-        max-width: 90vw;
+        max-width: 70vw;
     }
 }
 /* #endregion */
@@ -905,7 +915,7 @@ div.services-content-item:nth-of-type(even) {
 
 @media (max-width: 768px) {
     .grid img {
-        max-width: 60vw;
+        max-width: 50vw;
     }
 }
 
@@ -941,6 +951,10 @@ div.services-content-item:nth-of-type(even) {
 
     .insurance.image {
         max-width: 90vw;
+    }
+
+    .grid img {
+        max-width: 70vw;
     }
 
 }
