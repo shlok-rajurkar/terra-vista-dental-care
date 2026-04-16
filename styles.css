@@ -780,6 +780,7 @@ div.services-content-item:nth-of-type(even) {
 
 .horizontal-stack.post-op {
     align-items: center;
+    gap: 1vw;
 }
 
 /* #endregion */
