@@ -682,6 +682,14 @@ ul {
     display: flex;
 }
 
+
+.large.text.box.services.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 div.services-content-item:nth-of-type(odd) {
     flex-direction: row-reverse;
 }
@@ -745,6 +753,11 @@ div.services-content-item:nth-of-type(even) {
 
 .services.bottom.text h3 {
     border-bottom: 1px black solid;
+}
+
+.medium-image.services {
+    max-width: 400px;
+    max-height: none;
 }
 
 
