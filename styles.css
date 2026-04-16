@@ -945,12 +945,23 @@ div.services-content-item:nth-of-type(even) {
     border: 1px solid black;
 }
 
+.horizontal-stack.specials {
+    padding: 80px 0px;
+    box-shadow: 0 0 .55rem grey;
+}
+
 .specials.text.box {
-    text-align: justify;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
+
+.specials p {
+    margin: 20px;
+}
+
 
 /* #endregion */
 
