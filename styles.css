@@ -168,11 +168,11 @@ ul {
 /* #endregion */
 
 /* #region Image */
-/* 
+
 .small-image {
-    max-width: 15vw;
-    height: auto;
-} */
+    max-height: 150px;
+    max-width: 220px;
+}
 
 .medium-image {
     max-height: 200px;
