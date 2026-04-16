@@ -172,7 +172,7 @@ ul {
 
 .small-image {
     max-height: 150px;
-    max-width: 220px;
+    max-width: 200px;
 }
 
 .medium-image {
@@ -776,6 +776,10 @@ div.services-content-item:nth-of-type(even) {
     .bordered-box.padded {
         padding: 0vw;
     }
+}
+
+.horizontal-stack.post-op {
+    align-items: center;
 }
 
 /* #endregion */
