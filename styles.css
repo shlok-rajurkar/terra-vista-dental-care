@@ -35,6 +35,13 @@ html {
     --text-xxl: 2rem;
 }
 
+p {
+    text-align: justify;
+}
+
+div {
+    text-align: justify;
+}
 
 .text.small {
     font-size: var(--text-sm);
@@ -780,7 +787,7 @@ div.services-content-item:nth-of-type(even) {
 /* #region Insurances */
 
 .text {
-    text-align: center;
+    text-align: justify;
 }
 
 
