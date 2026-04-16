@@ -85,6 +85,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     padding: 1vw;
+    padding-bottom: 80px;
     flex-grow: 1;
     width: 70vw;
     align-self: center;
@@ -846,7 +847,7 @@ div.services-content-item:nth-of-type(even) {
 }
 
 .insurance.image {
-    max-width: 100%;
+    width: 300px;
 }
 
 
