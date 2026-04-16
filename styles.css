@@ -262,7 +262,7 @@ ul {
 }
 
 .top-contact.item-list {
-    text-align: end;
+    text-align: start;
 }
 
 .numbers {
@@ -275,6 +275,8 @@ ul {
     margin: 0px;
     padding: 0px;
 }
+
+
 
 .number {
     text-align: start;
