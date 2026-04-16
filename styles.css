@@ -941,6 +941,17 @@ div.services-content-item:nth-of-type(even) {
     align-items: flex-start;
 }
 
+.specials img {
+    border: 1px solid black;
+}
+
+.specials.text.box {
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* #endregion */
 
 /* #region Stacks */
