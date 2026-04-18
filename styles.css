@@ -794,6 +794,10 @@ div.services-content-item:nth-of-type(even) {
     margin-bottom: 25px;
 }
 
+.educational.list {
+    margin-bottom: 1.5em;
+}
+
 /* #endregion */
 
 /* #region Our Doctors */
@@ -830,11 +834,11 @@ div.services-content-item:nth-of-type(even) {
 
 .medium-image.sunbit {
     max-height: 400px;
-    width: 300px;
+    width: 250px;
 }
 
 .medium-image.cherry {
-    width: 300px;
+    width: 250px;
 }
 
 .patient-resources.horizontal-stack {
