@@ -201,7 +201,7 @@ ul {
 .logo-contact-container {
     display: flex;
     flex-direction: row;
-    padding: .5vw 3vw 0vw 2vw;
+    padding: .5vw 5vw 0vw 4vw;
     flex-wrap: wrap;
     background-color: white;
 }
