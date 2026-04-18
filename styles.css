@@ -294,6 +294,7 @@ ul {
     font-size: large;
     width: 50vw;
     align-self: center;
+    margin: 20px;
 }
 
 /* Stacks logo and contact vertically with narrow screen */
@@ -643,6 +644,12 @@ ul {
 /* #endregion */
 
 /* #region Home */
+
+.home.heading {
+    text-align: center;
+}
+
+
 .horizontal-stack.container.home-link {
     gap: 5vw;
     width: 60vw;
