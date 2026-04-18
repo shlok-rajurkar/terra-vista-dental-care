@@ -836,6 +836,10 @@ div.services-content-item:nth-of-type(even) {
     width: auto;
 }
 
+.insurance.expandable.bordered-box {
+    margin-bottom: 50px;
+}
+
 
 .insurance-item-container {
     display: flex;
