@@ -870,6 +870,10 @@ div.services-content-item:nth-of-type(even) {
     width: 150px;
 }
 
+.grid.item.insurance {
+    justify-content: center;
+}
+
 
 
 .pair.medium-image.card {
