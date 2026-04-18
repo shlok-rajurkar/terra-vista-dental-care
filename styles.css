@@ -816,7 +816,7 @@ div.services-content-item:nth-of-type(even) {
 
 
 .credit-card-logo {
-    max-height: 5vh;
+    max-height: 3vh;
 }
 
 .insurance-list-container {
@@ -866,8 +866,8 @@ div.services-content-item:nth-of-type(even) {
     max-width: 10vw;
 }
 
-.insurance.image {
-    width: 300px;
+.insurance.image.grid {
+    width: 150px;
 }
 
 
