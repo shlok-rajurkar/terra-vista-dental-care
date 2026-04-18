@@ -735,7 +735,7 @@ div.services-content-item:nth-of-type(even) {
 
 .services.content-half {
     /* flex-grow: 1; */
-    width: 450px;
+    max-width: 450px;
     object-fit: fill;
     display: flex;
     align-items: center;
