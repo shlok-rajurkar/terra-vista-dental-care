@@ -790,6 +790,10 @@ div.services-content-item:nth-of-type(even) {
     gap: 1vw;
 }
 
+.list-container.post-op {
+    margin-bottom: 25px;
+}
+
 /* #endregion */
 
 /* #region Our Doctors */
