@@ -868,6 +868,9 @@ div.services-content-item:nth-of-type(even) {
     
 }
 
+.insurance.list {
+    margin-top: 0px;
+}
 
 .insurance-item-container {
     display: flex;
