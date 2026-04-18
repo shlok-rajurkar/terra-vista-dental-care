@@ -829,8 +829,12 @@ div.services-content-item:nth-of-type(even) {
     width: 300px;
 }
 
+.medium-image.cherry {
+    width: 300px;
+}
+
 .patient-resources.horizontal-stack {
-    gap: 50px;
+    gap: 100px;
 }
 
 .credit-card-logo {
