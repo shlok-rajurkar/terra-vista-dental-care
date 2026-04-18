@@ -820,6 +820,10 @@ div.services-content-item:nth-of-type(even) {
     text-align: justify;
 }
 
+.large.text.box.insurance {
+    margin-top: 5vh;
+}
+
 
 
 .credit-card-logo {
