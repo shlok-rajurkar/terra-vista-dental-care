@@ -917,7 +917,8 @@ div.services-content-item:nth-of-type(even) {
 /* #region Specials */
 
 .specials img {
-    height: 350px;
+    max-height: 350px;
+    max-width: 70vw;
 }
 
 .specials.bordered-box {
@@ -965,7 +966,7 @@ div.services-content-item:nth-of-type(even) {
 }
 
 .specials img {
-    border: 1px solid black;
+    border: 1px solid rgb(124, 124, 124);
 }
 
 .horizontal-stack.specials {
