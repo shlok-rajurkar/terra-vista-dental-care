@@ -756,7 +756,7 @@ div.services-content-item:nth-of-type(even) {
 }
 
 .medium-image.services {
-    max-width: 400px;
+    max-width: 300px;
     max-height: none;
 }
 
