@@ -978,8 +978,9 @@ div.services-content-item:nth-of-type(even) {
 }
 
 .horizontal-stack.specials {
-    padding: 80px 0px;
+    padding: 80px 50px;
     box-shadow: 0 0 .55rem grey;
+    max-width: 60vw;
 }
 
 .specials.text.box {
@@ -988,6 +989,7 @@ div.services-content-item:nth-of-type(even) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0px;
 }
 
 .specials p {
