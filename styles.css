@@ -688,6 +688,7 @@ ul {
 
 .services-content-item {
     display: flex;
+    gap: 40px;
 }
 
 
