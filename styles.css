@@ -194,7 +194,7 @@ ul {
 }
 
 .header-region {
-    min-height: 5vh;
+    height: 5px;
     background-color: var(--secondary-color);
 }
 
@@ -234,6 +234,11 @@ ul {
     align-self: stretch;
     margin-left: 10px;
     margin-bottom: 10px;
+}
+
+.header-bottom-spacer {
+    height: 5px;
+    background-color: var(--secondary-color);
 }
 
 
@@ -458,6 +463,15 @@ ul {
 /* #endregion */
 
 /* #region Nav Bar */
+
+#toggle-nav {
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    /* border-radius: 50%; */
+    border: none;
+    /* align-self: flex-end; */
+}
 
 .nav-region {
     display: block;
@@ -804,7 +818,7 @@ div.services-content-item:nth-of-type(even) {
     }
 
     .patient-resources.horizontal-stack.padded {
-        gap: 10px;
+        gap: px;
     }
 
 
@@ -814,12 +828,6 @@ div.services-content-item:nth-of-type(even) {
     .patient-resources.horizontal-stack {
         gap: 30px;
     }
-}
-
-@media 
-
-.medium-image.resources {
-    min-width: 200px;
 }
 
 .horizontal-stack.post-op {
