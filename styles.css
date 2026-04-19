@@ -677,7 +677,6 @@ ul {
 
 /* #endregion */
 
-
 /* #region Services */
 
 .services-content-wrapper {
@@ -1020,6 +1019,20 @@ div.services-content-item:nth-of-type(even) {
     max-width: 60vw;
 }
 
+@media (max-width: 1100px) {
+    .horizontal-stack.specials {
+        max-width: 75vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .horizontal-stack.specials {
+        padding: 20px;
+        max-width: 85vw;
+    }
+
+}
+
 .specials.text.box {
     text-align: center;
     display: flex;
@@ -1034,12 +1047,16 @@ div.services-content-item:nth-of-type(even) {
 }
 
 
+.vertical-stack.resources {
+    max-width: 85vw;
+}
+
 /* #endregion */
 
 /* #region Stacks */
 
 .section-parent {
-    width: 100%;
+    width: 85%;
 }
 
 .horizontal-stack {
@@ -1062,7 +1079,7 @@ div.services-content-item:nth-of-type(even) {
     }
 
     .grid img {
-        max-width: 70vw;
+        max-width: 30vw;
     }
 
 }
