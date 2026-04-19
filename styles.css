@@ -238,6 +238,9 @@ ul {
 
 
 
+
+
+
 @media (max-width: 900px) {
     .logo img {
         max-width: 65vw;
@@ -246,8 +249,18 @@ ul {
 
 @media (max-width: 768px) {
     .logo img {
-        max-width: 90vw;
+        max-width: 80vw;
     }
+
+    .address.text {
+        font-size: small;
+    }
+
+    .top-contact, .top-contact.item.base.text {
+        font-size: small;
+    }
+
+    
 }
 
 .slogan {
@@ -306,7 +319,7 @@ ul {
 
     .top-contact-container {
         justify-content: center;
-        margin-bottom: 20px;
+        /* margin-bottom: 20px; */
     }
 
     .address.text {
