@@ -238,6 +238,7 @@ ul {
 
 .logo img {
     max-width: 500px;
+    margin-top: 10px;
 }
 
 .address.text {
