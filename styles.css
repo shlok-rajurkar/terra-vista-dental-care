@@ -258,7 +258,9 @@ ul {
     }
 
     .address.text {
-        font-size: small;
+        font-size: 3.25vw;
+        max-width: 80vw;
+        /* white-space: nowrap; */
     }
 
     .top-contact, .top-contact.item.base.text {
