@@ -788,6 +788,9 @@ div.services-content-item:nth-of-type(even) {
 
 /* #region Patient Resources */
 
+.patient-resources.horizontal-stack {
+    gap: 50px;
+}
 
 @media (max-width: 768px) {
     .bordered-box {
@@ -799,6 +802,24 @@ div.services-content-item:nth-of-type(even) {
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    .patient-resources.horizontal-stack.padded {
+        gap: 10px;
+    }
+
+
+}
+
+@media (max-width: 900px) {
+    .patient-resources.horizontal-stack {
+        gap: 30px;
+    }
+}
+
+@media 
+
+.medium-image.resources {
+    min-width: 200px;
 }
 
 .horizontal-stack.post-op {
@@ -866,9 +887,7 @@ div.services-content-item:nth-of-type(even) {
     width: 250px;
 }
 
-.patient-resources.horizontal-stack {
-    gap: 100px;
-}
+
 
 .credit-card-logo {
     max-height: 3vh;
@@ -1090,7 +1109,7 @@ div.services-content-item:nth-of-type(even) {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    gap: 2vw;
+    gap: 20px;
     flex-grow: 1;
 }
 
@@ -1122,15 +1141,21 @@ div.services-content-item:nth-of-type(even) {
     padding: 50px;
 }
 
+.margin {
+    margin: 50px;
+}
+
 @media (max-width: 768px) {
     .padded {
         padding: 20px;
     }
+
+    .margin {
+        margin: 20px;
+    }
 }
 
-.margin {
-    margin: 2vw;
-}
+
 
 .center-children {
     justify-content: center;
