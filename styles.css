@@ -473,7 +473,6 @@ ul {
     /* align-self: flex-end; */
     padding: 0px;
     text-align: center;
-    display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
@@ -554,7 +553,7 @@ ul {
     }
 
     .toggle-button {
-        display: block;
+        display: flex;
     }
 
 }
