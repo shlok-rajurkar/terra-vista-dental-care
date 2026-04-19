@@ -482,7 +482,7 @@ ul {
     text-align: center;
     justify-content: center;
     align-items: center;
-    /* margin: 10px; */
+    margin: 5px;
     background-color: white;
 }
 
@@ -547,11 +547,14 @@ ul {
         max-height: 0;
         transition: max-height 0.35s ease, opacity 0.3s ease;
         opacity: 0;
+        border-bottom: none;
     }
 
     .expandable.open {
         max-height: 50000px;
         opacity: 1;
+        border-bottom: rgb(120, 120, 120) 1px solid;
+
     }
 
     .nav-bar {
