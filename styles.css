@@ -918,7 +918,7 @@ div.services-content-item:nth-of-type(even) {
 }
 
 .large.text.box.insurance {
-    /* margin-top: 20px; */
+    margin-top: 17px;
     margin-bottom: 40px;
 }
 
@@ -1074,7 +1074,7 @@ div.services-content-item:nth-of-type(even) {
 
 .specials.vertical-stack {
     flex-grow: 0;
-    align-self: stretch;
+    margin-top: 17px;
 }
 
 #veneers img {
