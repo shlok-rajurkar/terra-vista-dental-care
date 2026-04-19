@@ -76,6 +76,16 @@ h2 {
     text-align: center;
 }
 
+.black-at-rest {
+    color: black;
+}
+
+a:visited .black-at-rest {
+    color: black;
+}
+
+
+
 .hidden {
     visibility: hidden;
 }
@@ -112,11 +122,12 @@ a {
 
 a:hover {
     text-shadow: 0.04em 0 0 currentColor;
-}
-
-a:visited {
     color: #0000ff;
 }
+/* 
+a:visited {
+    color: #0000ff;
+} */
 
 ul {
     justify-self: start;
@@ -900,7 +911,7 @@ div.services-content-item:nth-of-type(even) {
 
 .large.text.box.insurance {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .medium-image.sunbit {
