@@ -3,7 +3,7 @@
 * {
     font-family: "Albert Sans", sans-serif;
     /* border: black 1px solid; */
-    background-color: transparent;
+    /* background-color: transparent; */
 }
 
 .albert-sans-font {
@@ -280,6 +280,7 @@ ul {
 .top-contact-container {
     justify-content: flex-end;
     flex-grow: 1;
+    margin-bottom: 10px;
 }
 
 .top-contact.item-list {
@@ -297,7 +298,11 @@ ul {
     padding: 0px;
 }
 
-
+.hamburger-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
 
 .number {
     text-align: start;
@@ -314,7 +319,7 @@ ul {
     font-size: large;
     width: 50vw;
     align-self: center;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 /* Stacks logo and contact vertically with narrow screen */
@@ -477,13 +482,14 @@ ul {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    /* margin: 10px; */
+    background-color: white;
 }
 
 .nav-region {
     display: block;
-    border-top: rgb(120, 120, 120) 1px solid;
-    border-bottom: rgb(120, 120, 120) 1px solid;
+    /* border-top: rgb(120, 120, 120) 1px solid;
+    border-bottom: rgb(120, 120, 120) 1px solid; */
 }
 
 .nav-bar {
