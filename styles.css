@@ -194,7 +194,7 @@ ul {
 }
 
 .header-region {
-    height: 5px;
+    height: 20px;
     background-color: var(--secondary-color);
 }
 
@@ -471,6 +471,12 @@ ul {
     /* border-radius: 50%; */
     border: none;
     /* align-self: flex-end; */
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
 
 .nav-region {
