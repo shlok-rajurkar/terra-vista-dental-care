@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,10 +25,10 @@
             <div class="slideshow-container">
 
             <button class="left slideshow-arrow" id="left-slideshow-arrow">
-                <img class="arrow-image" src="{{ '/images/slideshow/arrows/LeftArrow.svg' | relative_url}}" alt="left arrow">
+                <img class="arrow-image" src="/images/slideshow/arrows/LeftArrow.svg" alt="left arrow">
             </button>
             <button class="right slideshow-arrow" id="right-slideshow-arrow">
-                <img class="arrow-image" src="{{ '/images/slideshow/arrows/RightArrow.svg' | relative_url}}" alt="right arrow">
+                <img class="arrow-image" src="/images/slideshow/arrows/RightArrow.svg" alt="right arrow">
             </button>
             <img class="slideshow-image active" id="img-0" src="images/slideshow/display_pictures/IMG_0958.jpg" alt="pic 0">
             <img class="slideshow-image" id="img-1" src="images/slideshow/display_pictures/IMG_0960.jpg" alt="pic 1">
@@ -134,7 +134,7 @@
         {% include footer.html %}
     </div>
 
-    <script type="module" src="{{ '/scripts/layout.js' | relative_url }}"></script>
-    <script type="module" src="{{ '/scripts/slideshow_exec.js' | relative_url }}"></script>
+    <script type="module" src="/scripts/layout.js"></script>
+    <script type="module" src="/scripts/slideshow_exec.js"></script>
 </body>
 </html>
