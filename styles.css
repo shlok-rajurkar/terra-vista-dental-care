@@ -1059,6 +1059,11 @@ div.services-content-item:nth-of-type(even) {
     width: 85%;
 }
 
+/* .vertical-stack.section-parent {
+    width: 89.5%;
+    margin: 1vw;
+} */
+
 .horizontal-stack {
     display: flex;
     flex-direction: row;
