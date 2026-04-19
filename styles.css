@@ -488,8 +488,8 @@ ul {
 
 .nav-region {
     display: block;
-    /* border-top: rgb(120, 120, 120) 1px solid;
-    border-bottom: rgb(120, 120, 120) 1px solid; */
+    /* border-top: rgb(120, 120, 120) 1px solid; */
+    border-bottom: rgb(120, 120, 120) 1px solid;
 }
 
 .nav-bar {
