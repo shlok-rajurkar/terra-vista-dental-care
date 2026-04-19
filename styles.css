@@ -845,7 +845,8 @@ div.services-content-item:nth-of-type(even) {
 }
 
 .large.text.box.insurance {
-    margin-top: 5vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .medium-image.sunbit {
@@ -883,9 +884,9 @@ div.services-content-item:nth-of-type(even) {
 }
 
 .insurance.expandable.bordered-box {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+    max-width: 85vw;
 }
 
 .insurance.list {

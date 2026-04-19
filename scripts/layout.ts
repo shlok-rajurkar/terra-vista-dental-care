@@ -47,6 +47,7 @@ function addBoxToggle(buttonID : string, boxID : string) {
     toggleButton?.addEventListener("click", (): void => {
         if (expandableRegion?.classList.contains("open")) {
             expandableRegion.classList.remove("open");
+            
         } else {
             expandableRegion?.classList.add("open");
         }
