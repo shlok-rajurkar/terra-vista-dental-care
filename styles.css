@@ -575,7 +575,7 @@ ul {
 
 .slideshow-wrapper {
     width: 60vw;
-    margin-bottom: 50px;
+    margin: 30px;
 }
 
 @media (max-width: 768px) {
@@ -691,6 +691,7 @@ ul {
 .home.heading {
     text-align: center;
     font-weight: normal;
+    margin: 0px;
 }
 
 
