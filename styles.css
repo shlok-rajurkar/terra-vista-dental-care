@@ -90,7 +90,7 @@ h2 {
     width: 70vw;
     align-self: center;
     background-color: white;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 @media (max-width: 1300px) {
