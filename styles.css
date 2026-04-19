@@ -814,6 +814,14 @@ div.services-content-item:nth-of-type(even) {
     margin-bottom: 1.5em;
 }
 
+@media (min-width: 769px) {
+    .vertical-stack.bordered-box.section-parent.resources.padded {
+        padding: 0px;
+    }
+}
+
+
+
 /* #endregion */
 
 /* #region Our Doctors */
@@ -1112,6 +1120,12 @@ div.services-content-item:nth-of-type(even) {
 
 .padded {
     padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .padded {
+        padding: 20px;
+    }
 }
 
 .margin {
