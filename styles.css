@@ -494,6 +494,7 @@ ul {
     justify-content: center;
     align-items: center;
     margin: 5px;
+    margin-top: 20px;
     background-color: white;
 }
 
@@ -586,7 +587,7 @@ ul {
 
 .slideshow-wrapper {
     width: 60vw;
-    margin: 30px;
+    margin: 20px;
 }
 
 @media (max-width: 768px) {
@@ -702,7 +703,13 @@ ul {
 .home.heading {
     text-align: center;
     font-weight: normal;
-    margin: 0px;
+    margin: 10px;
+}
+
+@media (min-width: 769px) {
+    .home.heading {
+        margin-top: 80px;
+    }
 }
 
 
@@ -910,7 +917,7 @@ div.services-content-item:nth-of-type(even) {
 }
 
 .large.text.box.insurance {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 40px;
 }
 
@@ -936,7 +943,7 @@ div.services-content-item:nth-of-type(even) {
     flex-wrap: wrap;
     justify-content: center;
     gap: 3vw;
-    padding: 3vw;
+    padding: 20px;
     margin-top: 0vh;
     margin-bottom: 20px;
 }
@@ -949,6 +956,7 @@ div.services-content-item:nth-of-type(even) {
 .insurance.expandable.bordered-box {
     /* margin-top: 50px;
     margin-bottom: 50px; */
+    margin: 20px;
     max-width: 85vw;
 }
 
@@ -969,7 +977,7 @@ div.services-content-item:nth-of-type(even) {
 
 .insurance-item-container img {
     height: auto;
-    width: 10vw;
+    max-width: 20vw;
     flex-shrink: 1;
 }
 
