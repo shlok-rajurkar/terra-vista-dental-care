@@ -1078,6 +1078,7 @@ div.services-content-item:nth-of-type(even) {
 .specials.vertical-stack {
     flex-grow: 0;
     margin-top: 17px;
+    gap: 20px;
 }
 
 #veneers img {
