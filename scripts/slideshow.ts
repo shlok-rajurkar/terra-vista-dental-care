@@ -119,42 +119,82 @@ export async function slideshowMain(imageCount: number): Promise<void> {
 
     // Slideshow Dots
 
-    const slideshowDot0 = slideshowDots[0] as HTMLButtonElement;
-    const slideshowDot1 = slideshowDots[1] as HTMLButtonElement;
-    const slideshowDot2 = slideshowDots[2] as HTMLButtonElement;
-
-    slideshowDot0.addEventListener("click", (): void => {
-        updateActiveElement(currSlideshowElementIndex, 0, slideshowImages);
-        updateActiveElement(currSlideshowElementIndex, 0, slideshowDots);
-        currSlideshowElementIndex = 0;
+    for (let i : number = 0; i < imageCount; i++) {
+        const dot = slideshowDots[i] as HTMLButtonElement;
+        dot.addEventListener("click", (): void => {
+        updateActiveElement(currSlideshowElementIndex, i, slideshowImages);
+        updateActiveElement(currSlideshowElementIndex, i, slideshowDots);
+        currSlideshowElementIndex = i;
 
         clearInterval(movementInterval);
         movementInterval = setInterval(() => {
             resetAutomaticMovement();
-    }, 3000);
-    })
+            }, 3000);
+        })
+    }
 
-    slideshowDot1.addEventListener("click", (): void => {
-        updateActiveElement(currSlideshowElementIndex, 1, slideshowImages);
-        updateActiveElement(currSlideshowElementIndex, 1, slideshowDots);
-        currSlideshowElementIndex = 1;
+    // const slideshowDot0 = slideshowDots[0] as HTMLButtonElement;
+    // const slideshowDot1 = slideshowDots[1] as HTMLButtonElement;
+    // const slideshowDot2 = slideshowDots[2] as HTMLButtonElement;
+    // const slideshowDot3 = slideshowDots[3] as HTMLButtonElement;
+    // const slideshowDot4 = slideshowDots[4] as HTMLButtonElement;
+    // const slideshowDot5 = slideshowDots[5] as HTMLButtonElement;
 
-        clearInterval(movementInterval);
-        movementInterval = setInterval(() => {
-            resetAutomaticMovement();
-    }, 3000);
-    })
 
-    slideshowDot2.addEventListener("click", (): void => {
-        updateActiveElement(currSlideshowElementIndex, 2, slideshowImages);
-        updateActiveElement(currSlideshowElementIndex, 2, slideshowDots);
-        currSlideshowElementIndex = 2;
 
-        clearInterval(movementInterval);
-        movementInterval = setInterval(() => {
-            resetAutomaticMovement();
-    }, 3000);
-    })
+
+
+    // slideshowDot1.addEventListener("click", (): void => {
+    //     updateActiveElement(currSlideshowElementIndex, 1, slideshowImages);
+    //     updateActiveElement(currSlideshowElementIndex, 1, slideshowDots);
+    //     currSlideshowElementIndex = 1;
+
+    //     clearInterval(movementInterval);
+    //     movementInterval = setInterval(() => {
+    //         resetAutomaticMovement();
+    // }, 3000);
+    // })
+
+    // slideshowDot2.addEventListener("click", (): void => {
+    //     updateActiveElement(currSlideshowElementIndex, 2, slideshowImages);
+    //     updateActiveElement(currSlideshowElementIndex, 2, slideshowDots);
+    //     currSlideshowElementIndex = 2;
+
+    //     clearInterval(movementInterval);
+    //     movementInterval = setInterval(() => {
+    //         resetAutomaticMovement();
+    // }, 3000);
+    // })
+    // slideshowDot3.addEventListener("click", (): void => {
+    //     updateActiveElement(currSlideshowElementIndex, 2, slideshowImages);
+    //     updateActiveElement(currSlideshowElementIndex, 2, slideshowDots);
+    //     currSlideshowElementIndex = 2;
+
+    //     clearInterval(movementInterval);
+    //     movementInterval = setInterval(() => {
+    //         resetAutomaticMovement();
+    // }, 3000);
+    // })
+    // slideshowDot4.addEventListener("click", (): void => {
+    //     updateActiveElement(currSlideshowElementIndex, 2, slideshowImages);
+    //     updateActiveElement(currSlideshowElementIndex, 2, slideshowDots);
+    //     currSlideshowElementIndex = 2;
+
+    //     clearInterval(movementInterval);
+    //     movementInterval = setInterval(() => {
+    //         resetAutomaticMovement();
+    // }, 3000);
+    // })
+    // slideshowDot5.addEventListener("click", (): void => {
+    //     updateActiveElement(currSlideshowElementIndex, 2, slideshowImages);
+    //     updateActiveElement(currSlideshowElementIndex, 2, slideshowDots);
+    //     currSlideshowElementIndex = 2;
+
+    //     clearInterval(movementInterval);
+    //     movementInterval = setInterval(() => {
+    //         resetAutomaticMovement();
+    // }, 3000);
+    // })
 
 }
 
