@@ -124,6 +124,6 @@ export async function slideshowMain(imageCount) {
     });
 }
 export function main() {
-    slideshowMain(3);
+    slideshowMain(6);
 }
 //# sourceMappingURL=slideshow.js.map
