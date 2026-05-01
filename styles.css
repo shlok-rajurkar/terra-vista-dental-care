@@ -655,7 +655,7 @@ ul {
 }
 
 .bigger-dot-container {
-    height: 10px;
+    height: 20px;
     width: .5vw;
     display: flex;
     justify-content: center;
