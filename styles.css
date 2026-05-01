@@ -674,6 +674,10 @@ ul {
     background-color: #303030;
 }
 
+#img-2 {
+    object-fit: contain;
+}
+
 /* #endregion */
 
 /* #region Quote */
