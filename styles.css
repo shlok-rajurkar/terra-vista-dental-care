@@ -655,7 +655,7 @@ ul {
 }
 
 .bigger-dot-container {
-    height: .5vw;
+    height: 10px;
     width: .5vw;
     display: flex;
     justify-content: center;
@@ -665,12 +665,12 @@ ul {
 .slideshow-dot {
     border: 0px;
     background-color: #757575;
-    height: .25vw;
+    height: 10px;
     width: .5vw;
 }
 
 .slideshow-dot.active {
-    height: .5vw;
+    height: 10px;
     width: .5vw;
     background-color: #303030;
 }
