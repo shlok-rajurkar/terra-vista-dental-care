@@ -960,7 +960,7 @@ div.services-content-item:nth-of-type(even) {
     width: auto;
 }
 
-.insurance.expandable.bordered-box {
+.insurance.bordered-box {
     /* margin-top: 50px;
     margin-bottom: 50px; */
     margin: 20px;
