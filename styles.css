@@ -675,7 +675,7 @@ ul {
     background-color: #303030;
 }
 
-#img-2 {
+#img-2, #img-6 {
     object-fit: contain;
 }
 
