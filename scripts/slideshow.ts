@@ -199,5 +199,5 @@ export async function slideshowMain(imageCount: number): Promise<void> {
 }
 
 export function main(): void {
-    slideshowMain(6);
+    slideshowMain(8);
 }
