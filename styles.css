@@ -607,7 +607,7 @@ ul {
     grid-template-areas: "overlap-area";
     height: auto;
     aspect-ratio: 16 / 9;
-    background-color: black;
+    background-color: #ffffff;
 }
 
 .slideshow-arrow {
