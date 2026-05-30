@@ -234,6 +234,7 @@ ul {
 .red-message {
     margin-right: 10vw;
     color: red;
+    display: none;
 }
 
 .logo {
