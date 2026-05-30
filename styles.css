@@ -232,7 +232,7 @@ ul {
 }
 
 .red-message {
-    margin: 50px;
+    justify-content: center;
     color: red;
 }
 
