@@ -752,6 +752,41 @@ ul {
 
 /* #endregion */
 
+/* #region Reviews */
+
+
+.review-table {
+    column-count: 3;
+    max-width: 1100px;
+    margin: 0 auto;
+    column-gap: 0;
+}
+
+.review-image {
+    width: 100%;
+    height: auto;
+    margin: 15px auto;
+}
+
+@media (max-width: 1024px) {
+    .review-table {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .review-table {
+        max-width: 640px;
+        column-count: 1;
+    }
+
+    .review-image {
+        width: 100%;
+    }
+}
+
+/* #endregion */
+
 /* #region Services */
 
 .services-content-wrapper {
