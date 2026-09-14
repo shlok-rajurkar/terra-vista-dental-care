@@ -1061,8 +1061,9 @@ div.services-content-item:nth-of-type(even) {
 /* #region Specials */
 
 .specials img {
-    max-height: 350px;
-    max-width: 70vw;
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
 }
 
 .specials.bordered-box {
